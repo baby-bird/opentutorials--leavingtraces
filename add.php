@@ -103,23 +103,22 @@ $result=mysql_query($sql);
 while($row=mysql_fetch_assoc($result)) {
 echo "
 <li>
-<a href=\"?id={$row['id']}\">{$row['title']}</a></li>";
+<a href=\"./index.php?id={$row['id']}\">{$row['title']}</a></li>";
 }
 ?>
 </ul>
 </nav>
-<article>
-<?php
-if(!empty($topic)){
-?>
-<h2><?=$topic['title']?></h2>
-<div class="description">
-<?=$topic['description']?>
-</div>
-<?php
-}
-?>
-</article>
+	<article>
+	 	<form action="add_process.php" method="POST">
+		<h2><label>제목</label>
+			<input type="text" name="title">
+			</h2>
+		<div class="description">
+		<p>본문 : <textarea name="description" id="" cols="30" rows="10"></textarea></p>
+		<p><input type="submit" value="제출" /></p>
+		</div>
+		</form>
+	</article>
 </div>
 </body>
 </html>
