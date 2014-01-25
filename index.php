@@ -86,7 +86,7 @@ width:500px;
 <body id="body">
 <div>
 <header>
-<h1>JavaScript</h1>
+<a href="./index.php"><h1>JavaScript</h1></a>
 </header>
 <div id="toolbar">
 	<a href="./delete.php">
