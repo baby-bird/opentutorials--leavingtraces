@@ -19,7 +19,7 @@ if(mysql_affected_rows()==1){
 				<head>
 					<script>alert('성공 했습니다.');
 					location.href=\"index.php?id=".mysql_insert_id()."\";
-					</script>
+					</script>					
 				</head>
 			</html>";
 } else {

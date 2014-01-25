@@ -95,7 +95,7 @@ width:500px;
 <nav>
 <ul>
 	<a href="./add.php">
-    <button>토픽추가</button>
+    <button>응원 한마디</button>
    </a>
 <?php
 $sql="select id,title from topic";
@@ -114,8 +114,8 @@ echo "
 			<input type="text" name="title">
 			</h2>
 		<div class="description">
-		<p>본문 : <textarea name="description" id="" cols="30" rows="10"></textarea></p>
-		<p><input type="submit" value="제출" /></p>
+		<p>본문 : <textarea name="description" id="" cols="30" rows="10" >한번쓰면 지우는 기능 없어요.(어떻게 지우는지 이제 공부중...) 신중히쓰기ㅋㅋ</textarea></p>
+		<p><input type="submit" value="힘내라!" /></p>
 		</div>
 		</form>
 	</article>

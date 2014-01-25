@@ -89,13 +89,16 @@ width:500px;
 <h1>JavaScript</h1>
 </header>
 <div id="toolbar">
+	<a href="./delete.php">
+    <button>지울래</button>
+   </a>
 <input type="button" value="black" onclick="document.getElementById('body').className='black'" />
 <input type="button" value="white" onclick="document.getElementById('body').className='white'" />
 </div>
 <nav>
 <ul>
 	<a href="./add.php">
-    <button>토픽추가</button>
+    <button>응원 한마디</button>
    </a>
 <?php
 $sql="select id,title from topic";
