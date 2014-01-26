@@ -17,7 +17,7 @@ mysql_query($sql);
 if(mysql_affected_rows()==1){
 	echo "<html>
 				<head>
-					<script>alert('성공 했습니다.');
+					<script language=JavaScript charset='euc-kr'>alert('성공 했습니다.');
 					location.href=\"index.php?id=".mysql_insert_id()."\";
 					</script>					
 				</head>

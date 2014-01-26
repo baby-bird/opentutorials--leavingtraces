@@ -82,11 +82,12 @@ font-size: 1.4em;
 width:500px;
 }
 </style>
+<title>응원 페이지</title>
 </head>
 <body id="body">
 <div>
 <header>
-<a href="./index.php"><h1>JavaScript</h1></a>
+<a href="./index.php"><h1>한국항공대학교 시간표 미리짜보기 및 강의평가 사이트 만들기 프로젝트, 응원 페이지</h1></a>
 </header>
 <div id="toolbar">
 	<form action="delete_process.php" method="POST">

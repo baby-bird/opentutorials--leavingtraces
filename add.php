@@ -87,11 +87,12 @@ font-size: 1.4em;
 width:500px;
 }
 </style>
+<title>응원 페이지</title>
 </head>
 <body id="body">
 <div>
 <header>
-<a href="./index.php"><h1>JavaScript</h1></a>
+<a href="./index.php"><h1>한국항공대학교 시간표 미리짜보기 및 강의평가 사이트 만들기 프로젝트, 응원 페이지</h1></a>
 </header>
 <div id="toolbar">
 <input type="button" value="black" onclick="document.getElementById('body').className='black'" />
@@ -121,7 +122,7 @@ echo "
 		<div class="description">
 		<p><ul><li>본문 : 
 			<div style="margin:0;padding:0;">
-			<textarea name="description" id="" cols="30" rows="10" >한번쓰면 지우는 기능 없어요.(어떻게 지우는지 이제 공부중...) 신중히쓰기ㅋㅋ</textarea></div>
+			<textarea name="description" id="" cols="30" rows="10" ></textarea></div>
 			</li></ul></p>
 		<p><input class="submit" type="submit" value="힘내라!" /></p>
 		</div>
