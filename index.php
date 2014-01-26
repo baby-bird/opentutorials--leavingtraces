@@ -89,9 +89,11 @@ width:500px;
 <a href="./index.php"><h1>JavaScript</h1></a>
 </header>
 <div id="toolbar">
-	<a href="./delete_process.php">
-    <button>지울래</button>
-   </a>
+	<form action="delete_process.php" method="POST">
+    	<input type="hidden" value="<?php $id=$_GET['id']; echo $id; ?>" name="Currentid"  >
+    	<input type="submit" value="지울래" >
+ 	</form>
+   
 <input type="button" value="black" onclick="document.getElementById('body').className='black'" />
 <input type="button" value="white" onclick="document.getElementById('body').className='white'" />
 </div>
