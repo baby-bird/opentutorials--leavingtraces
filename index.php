@@ -89,7 +89,7 @@ width:500px;
 <a href="./index.php"><h1>JavaScript</h1></a>
 </header>
 <div id="toolbar">
-	<a href="./delete.php">
+	<a href="./delete_process.php">
     <button>지울래</button>
    </a>
 <input type="button" value="black" onclick="document.getElementById('body').className='black'" />

@@ -49,6 +49,11 @@ padding: 20px 0;
 padding: 10px;
 float: right;
 }
+input.submit {
+margin-left: 50px;}
+ul,ol,li{list-style-type:none}
+textarea{vertical-align:bottom;}
+
 nav {
 float: left;
 margin-right: 20px;
@@ -114,8 +119,11 @@ echo "
 			<input type="text" name="title">
 			</h2>
 		<div class="description">
-		<p>본문 : <textarea name="description" id="" cols="30" rows="10" >한번쓰면 지우는 기능 없어요.(어떻게 지우는지 이제 공부중...) 신중히쓰기ㅋㅋ</textarea></p>
-		<p><input type="submit" value="힘내라!" /></p>
+		<p><div class="desc.title"><ul><li>본문 : 
+			<div style="margin:0;padding:0;">
+			<textarea name="description" id="" cols="30" rows="10" >한번쓰면 지우는 기능 없어요.(어떻게 지우는지 이제 공부중...) 신중히쓰기ㅋㅋ</textarea></div>
+			</li></ul></div></p>
+		<p><input class="submit" type="submit" value="힘내라!" /></p>
 		</div>
 		</form>
 	</article>
